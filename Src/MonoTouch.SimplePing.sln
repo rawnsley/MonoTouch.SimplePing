@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTouch.SimplePing", "Mon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTouch.SimplePing.Test", "MonoTouch.SimplePing.Test\MonoTouch.SimplePing.Test.csproj", "{B45BAFDA-4EA5-48E8-A1C0-471867CCF484}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unified.SimplePing", "Unified.SimplePing\Unified.SimplePing.csproj", "{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,22 @@ Global
 		AppStore|iPhone = AppStore|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.Release|iPhone.Build.0 = Release|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5DDF6F69-60F7-43AB-AF6E-5BF6F0006CD0}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{818F61CD-5CBB-4D25-ACEE-0E7470D454F8}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
 		{818F61CD-5CBB-4D25-ACEE-0E7470D454F8}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
 		{818F61CD-5CBB-4D25-ACEE-0E7470D454F8}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
@@ -49,8 +67,5 @@ Global
 		{B45BAFDA-4EA5-48E8-A1C0-471867CCF484}.Release|iPhone.Build.0 = Release|iPhone
 		{B45BAFDA-4EA5-48E8-A1C0-471867CCF484}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{B45BAFDA-4EA5-48E8-A1C0-471867CCF484}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = MonoTouch.SimplePing.Test\MonoTouch.SimplePing.Test.csproj
 	EndGlobalSection
 EndGlobal
